@@ -1,0 +1,39 @@
+{
+  "title": "QML-IDS Operating Points: reproducibility artifact for the Kaissar corpus",
+  "upload_type": "software",
+  "version": "2.1.0",
+  "description": "<p>Portable derived-data and software companion for <em>False-Alarm Improvements and Detection Trade-Offs in QML Intrusion Detection: A Secondary Analysis of the Kaissar Corpus</em>. The closed 25-entry frame yields 21 included articles (20 identified documentary families), with substantive methodological material consulted for 15. Five articles supply 24 main descriptive points; ten points from three articles enter the principal conditional binomial analysis.</p><p>The package preserves 466 derived records, source/version locations, deterministic calculations, independent numerical checks and figure/table generation. It distinguishes K17 descriptive comparisons, K10 separately identifiable FPR, K07 identification ranges, K03 observed versus conditional rates and K11 training-described results. No primary document copies, manuscript PDFs, journal template, model training or QPU execution are included.</p><p>Licensing by scope: code under MIT; authors' derived data and documentation under CC BY 4.0. See LICENSE, LICENSE-DATA and LICENSING.txt. Neither licence overrides the rights in the original sources.</p>",
+  "creators": [
+    {
+      "name": "Fernández-Barrios, Roberto",
+      "affiliation": "Faculty of Engineering, University of Deusto",
+      "orcid": "0009-0003-5312-2634"
+    },
+    {
+      "name": "Pastor-López, Iker",
+      "affiliation": "Faculty of Engineering, University of Deusto",
+      "orcid": "0000-0002-3068-6248"
+    },
+    {
+      "name": "González-Santocildes, Asier",
+      "affiliation": "Faculty of Engineering, University of Deusto",
+      "orcid": "0009-0002-8888-8560"
+    },
+    {
+      "name": "García Bringas, Pablo",
+      "affiliation": "Faculty of Engineering, University of Deusto",
+      "orcid": "0000-0003-3594-9534"
+    }
+  ],
+  "keywords": [
+    "quantum machine learning",
+    "intrusion detection",
+    "false-positive rate",
+    "attack detection",
+    "meta-research",
+    "reproducibility"
+  ],
+  "access_right": "open",
+  "license": "other-open",
+  "notes": "Prepared for the thesis GitHub plus fixed-version Zenodo workflow. Compound open licensing: MIT software and CC BY 4.0 derived data/documentation, with explicit file scopes. No specific external funding; no conflicts declared. AI assistance is documented in docs/AI_AND_REVIEW.txt. The companion article has no publication DOI."
+}

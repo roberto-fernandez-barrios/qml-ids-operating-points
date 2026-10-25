@@ -1,0 +1,13 @@
+{
+  "package": "v2.1.0 / author-confirmed 2026-10-25",
+  "extraction_frozen": "2026-10-24",
+  "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.18.0",
+    "matplotlib": "3.11.0"
+  },
+  "numerical_reference": "v1 / same closed corpus",
+  "scope": "No new source corpus, detector evaluation or training",
+  "changes_since_v2": "Author metadata, confirmed declarations and repository licensing. Numerical schema and results unchanged."
+}

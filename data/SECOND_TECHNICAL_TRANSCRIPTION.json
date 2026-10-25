@@ -1,0 +1,53 @@
+{
+  "procedimiento": "Segunda lectura técnica por el mismo asistente, en una pasada separada. Transcripción de imágenes PDF/figuras y cotejo con otra representación primaria; no segundo investigador humano ni lectura ciega. El cálculo de intervalos se contrasta por una implementación distinta.",
+  "K03": {
+    "fuente": "fuentes/K03_segunda_fuente_web.txt; versión editorial depositada por el autor en ResearchGate; Figs6–9 pp6–7; contraste con extracción UTB del piloto",
+    "orden": "filas verdad BENIGN,DDOS_SSDP; columnas predicción BENIGN,DDOS_SSDP",
+    "matrices": {"EnsembleQPUs": [[414,28],[0,443]], "QSVM": [[440,2],[1,442]], "QPU-0 (submodelo simulado)": [[382,60],[76,367]], "QPU-1 (submodelo simulado)": [[92,350],[0,443]]},
+    "pendiente": "Fig10: caption recuperado, imagen no recuperada. No promover H-QNN de código a resultado primario. Los submodelos se ejecutaron en simuladores según §2.3.2."
+  },
+  "K10": {
+    "fuente": "PDF p9 renderizado en figuras/K10_nature_p9.png; cotejo con HTML editorial independiente fuentes/K10_table3.html",
+    "n_por_clase_table2": [6000,1000,1000,1000,1000],
+    "table3": [[5988,3,4,2,3],[1,998,null,null,null],[4,null,989,null,null],[0,null,null,1000,null],[3,null,null,null,990]],
+    "orden": "filas verdad y columnas predicción, explícito en párrafo tras Table3; Normal,HTTP,ACK,Port,Syn",
+    "pendiente": "Quince ataques no asignados por celdas explícitas. FPR exacta. TPR condicionada al enlace Tables2–3 y a que 8 sea el total de FN. No sustituir guiones por cero."
+  },
+  "K11": {
+    "fuente": "figuras/K11_dnb_p10.png, K11_dnb_p11.png y K11_dnb_p12.png; se revisaron ejes y las diez matrices",
+    "orden": "filas Actual Attack,Benign; columnas Predicted Attack,Benign",
+    "nominales": [1000,2000,4000,8000,16000],
+    "local": [[[105,42],[47,106]],[[211,86],[72,231]],[[489,152],[142,417]],[[1010,225],[264,901]],[[1766,477],[450,2107]]],
+    "ibm": [[[118,29],[24,129]],[[276,41],[44,239]],[[526,85],[98,491]],[[1115,155],[144,986]],[[2066,195],[159,2380]]],
+    "table3_local_precision": [71.43,71.04,76.29,81.78,78.73],
+    "table3_local_recall": [69.08,74.56,77.50,79.28,79.69],
+    "table3_ibm_precision": [80.27,87.07,86.09,87.80,91.38],
+    "table3_ibm_recall": [83.10,86.25,84.29,88.56,92.85],
+    "pendiente": "Las matrices suman30% del nominal, pero §3.3 y discusión dicen training results. No dar por probado test independiente. Precision/Recall de Table3 corresponden respectivamente a TPR/PPV calculadas desde los ejes."
+  },
+  "K17": {
+    "fuente": "figuras/K17_dnb_p15.png, segunda lectura visual de las diez matrices y los ejes; contraste texto p15 con números training",
+    "orden": "filas Actual non-attack,attack; columnas Predicted non-attack,attack",
+    "test": {"LR":[[8041,1210],[1292,10040]],"KNN":[[8630,621],[1238,10094]],"DT":[[8900,351],[1500,9832]],"RF":[[8615,636],[685,10647]],"QSVM-IGWO":[[8943,308],[716,10616]]},
+    "train": {"LR":[[24126,3623],[3805,30195]],"KNN":[[26665,1084],[2548,31452]],"DT":[[26830,919],[4249,29751]],"RF":[[27728,21],[71,33929]],"QSVM-IGWO":[[27715,34],[58,33942]]},
+    "pendiente": "Cifras33942/58 de narrativa son training;58 está en celda FN, no FP. Denominadores Fig7 no enlazados al80/20 ni a10fold de Table4. Comparación descriptiva conservada, inferencia pareada no disponible."
+  },
+  "K07": {
+    "fuente": "Segunda lectura de cuatro JPG editoriales conservados S5_fig5..8, True label/Predicted label",
+    "orden_ataques": ["ACK_Flooding","HTTP_Flooding","OS_Version_Detection","Port_Scanning","SYN_Flooding","Telnet_Bruteforce"],
+    "normal_diagonal": {"SVM":0.64,"QSVM":0.98,"CNN":0.79,"QCNN":0.98},
+    "ataques_predichos_normal": {"SVM":[0,0,0,0,0,0],"QSVM":[0,0,0.04,0,0,0],"CNN":[0.1,0,0,0,0,0],"QCNN":[0,0,0.04,0,0,0]},
+    "pendiente": "Pesos de ataques y denominadores desconocidos; intervalos de identificación no son IC. Redondeo0.01."
+  },
+  "K15": {
+    "fuente": "Artículo aceptado Tables5/7; cotejo documental con tesis del mismo autor, cap3 Tables3.5/3.7, PDFpp59/61. Repite las mismas matrices, no experimento independiente ni evidencia nueva2026.",
+    "matrices": {"Harmony120shots":[[12,18],[29,1]],"Harmony200shots":[[20,0],[20,0]],"Aria1 simulación1000shots":[[348,42],[68,318]],"Aria1 QPU200shots":[[342,48],[58,328]]},
+    "pendiente": "Semántica de0/1 no confirmada mediante recodificación del autor. Las tasas se mantienen condicionadas al mapeo, con alternativa intercambiada."
+  },
+  "K16": {
+    "fuente": "Segunda lectura figuras/K16_author_p8.png: Fig7 y caption; Fig8 y cuerpo",
+    "epochs": [25,50,200],
+    "matrices_porcentuales": [[[99.2,0.8],[1.0,99.0]],[[99.2,0.8],[0.9,99.1]],[[99.2,0.8],[0.9,99.1]]],
+    "pendiente": "Ejes Attack/Normal sin Actual/Predicted; no recuperar n0 del test nominal. La relectura confirma200epochs también en caption; se eliminó una sospecha de20debida a lectura inicial, sin afectar tasas."
+  }
+}

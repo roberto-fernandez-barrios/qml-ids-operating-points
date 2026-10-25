@@ -1,0 +1,19 @@
+LICENSING SCOPE — QML-IDS Operating Points, v2.1.0
+
+Software (scripts/, requirements-tested.txt): MIT, full text in LICENSE.
+Derived aggregate records (data/), documentation (docs/, README.txt and metadata),
+and regenerated tables/figures: CC BY 4.0, terms and legal-code link in LICENSE-DATA.
+These are distinct scopes, not a requirement to dual-license every file.
+Facts and bibliographic metadata retain attribution; no exclusive rights are claimed
+in the published observations transcribed from the sources. Third-party rights are
+not relicensed. No primary reports, full texts, source artwork, source notebooks,
+MDPI template, editorial PDFs, internal review sheets or credentials are included.
+
+This follows the thesis practice of permissive code licensing (MIT in VBC and the
+certification-cost artifact) and a separate CC BY 4.0 scope for derived evidence
+and documentation (the hybrid-integrity artifact). It does not copy a manuscript
+licence or another article's grant information.
+
+The repository and a fixed-version Zenodo archive are the intended dissemination
+route. A draft/reserved DOI is not a published record. Actual public identifiers
+are added only after they exist, with the precise status indicated.

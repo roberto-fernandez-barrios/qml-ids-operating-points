@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "Cite this reproducibility artifact together with its companion manuscript and retain the source-study identifiers."
+type: software
+title: "QML-IDS Operating Points: reproducibility artifact for the Kaissar corpus"
+version: "2.1.0"
+license:
+  - MIT
+  - CC-BY-4.0
+authors:
+  - family-names: "Fernández-Barrios"
+    given-names: "Roberto"
+    affiliation: "Faculty of Engineering, University of Deusto"
+    orcid: "https://orcid.org/0009-0003-5312-2634"
+  - family-names: "Pastor-López"
+    given-names: "Iker"
+    affiliation: "Faculty of Engineering, University of Deusto"
+    orcid: "https://orcid.org/0000-0002-3068-6248"
+  - family-names: "González-Santocildes"
+    given-names: "Asier"
+    affiliation: "Faculty of Engineering, University of Deusto"
+    orcid: "https://orcid.org/0009-0002-8888-8560"
+  - family-names: "García Bringas"
+    given-names: "Pablo"
+    affiliation: "Faculty of Engineering, University of Deusto"
+    orcid: "https://orcid.org/0000-0003-3594-9534"
+abstract: >-
+  Derived aggregate records, source locators and deterministic verification for a
+  closed secondary analysis of the Kaissar QML-IDS corpus. Twenty-one articles are
+  included; five supply 24 main descriptive points. No new model training or QPU
+  executions. Conditional binomial calculations are distinguished from verified
+  sampling or calibration guarantees. Code is MIT; derived data/documentation are
+  CC BY 4.0 under the scopes in LICENSING.txt. Public identifiers are not yet assigned.
+keywords:
+  - quantum machine learning
+  - intrusion detection
+  - false-positive rate
+  - meta-research
+  - reproducibility

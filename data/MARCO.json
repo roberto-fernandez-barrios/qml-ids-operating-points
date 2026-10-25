@@ -1,0 +1,52 @@
+{
+  "doi": "10.3390/fi18050234",
+  "tabla": "Table2 p10",
+  "marco": 25,
+  "maximo_elegibles_previo": 23,
+  "criterios": "Empírico publicado IDS benigno/ataque con computación cuántica real o simulada; independiente de resultados y matrices.",
+  "filtro_previo_kaissar": "387 registros;49duplicados;338cribados;299excluidos;39textos;10fueraalcance y4calidad;25incluidos. QAR>=4 sobre7 criterios.",
+  "seleccion_actual": {
+    "incluir": [
+      "K01",
+      "K03",
+      "K04",
+      "K06",
+      "K07",
+      "K10",
+      "K11",
+      "K12",
+      "K13",
+      "K14",
+      "K15",
+      "K16",
+      "K17",
+      "K18",
+      "K19",
+      "K20",
+      "K21",
+      "K22",
+      "K23",
+      "K24",
+      "K25"
+    ],
+    "excluir": [
+      "K02",
+      "K05"
+    ],
+    "pendiente": [
+      "K08",
+      "K09"
+    ]
+  },
+  "limite": "Frecuencias sólo de este marco preseleccionado porcalidad; no extrapolar a todoQML-IDS. No pooling ni independencia por modelo.",
+  "familia_compartida": [
+    "K13",
+    "K21"
+  ],
+  "externos_no_denominador": [
+    "DP-QIDS",
+    "MQE",
+    "Gillani"
+  ],
+  "primarios_y_suplementos": "Código K03 y tesisK15 sólo como suplementos/cotejos; ningún resultado2026 añadido aldenominador."
+}

@@ -1,0 +1,9 @@
+Version 2.1.0, prepared 25 October 2026. Authors and declarations confirmed.
+Code: MIT. Derived data/documentation: CC BY 4.0. Exact scopes: LICENSING.txt.
+GitHub development repository plus a fixed-version Zenodo deposit follow the thesis
+artifact workflow. Remote draft/publication status is recorded separately in the
+editorial delivery. Neither a public repository URL nor a DOI is fabricated here.
+No primary texts/images/notebooks, MDPI template, editorial PDFs or credentials are
+included. Source locations and hashes identify privately consulted files, not inputs
+required for the portable reconstruction. The original protocol is historical.
+The separate focal human worksheet remains unsigned; author approval is confirmed.

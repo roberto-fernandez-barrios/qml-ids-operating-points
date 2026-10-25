@@ -1,0 +1,202 @@
+{
+  "K01": {
+    "selection": "Included",
+    "access": "Full text",
+    "finding": "Two 50-example QSVM evaluations on NSL-KDD and NB15; class denominators and error counts are unidentified. Classical SVM uses whole datasets, not the same evaluation subsets.",
+    "rule": "QSVM class decision; depth varied. No independent FPR calibration identified.",
+    "claim": "Feasibility and accuracy approaching classical SVM; no numerical low-FPR target located.",
+    "provenance": "Samples drawn from training files; the paper distinguishes training and test subsets. n0<=50 is a size bound, not an observed benign denominator."
+  },
+  "K02": {
+    "selection": "Excluded",
+    "access": "Primary abstract",
+    "finding": "Quantum-inspired ant-lion optimization of classical clustering, outside the circuit-based inclusion rule.",
+    "rule": "Not extracted",
+    "claim": "Outside the predefined eligibility rule.",
+    "provenance": "Exclusion does not depend on reported performance."
+  },
+  "K03": {
+    "selection": "Included",
+    "access": "Indexed author-deposited published text and code",
+    "finding": "Four complete published matrices; H-QNN saved code output is supplementary because identity with Figure 10 was not established.",
+    "rule": "Model class decisions; softmax for the neural/ensemble approaches. The source discusses adjustments after inspecting test behavior.",
+    "claim": "High accuracy and favorable computational performance of QSVM/H-QNN relative to the ensemble.",
+    "provenance": "CIC-DDoS2019 BENIGN/SSDP, n0=442, n1=443. QPU-0/QPU-1 are simulator submodels. Preprocessing and post-test adjustments prevent unqualified fixed-detector inference."
+  },
+  "K04": {
+    "selection": "Included",
+    "access": "Abstract; full-text retrieval failed",
+    "finding": "Full-Rotation QCNN on KDD Cup. Quantitative extraction unavailable; not classified as non-reporting.",
+    "rule": "Not consultable",
+    "claim": "Accuracy improvements over classical and quantum comparators in the abstract.",
+    "provenance": "ACM retrieval and legitimate-copy searches unsuccessful. A 403/non-OA metadata does not establish a publisher access restriction."
+  },
+  "K05": {
+    "selection": "Excluded",
+    "access": "Primary abstract",
+    "finding": "Quantum-behaved particle-swarm optimization of a classical deep wavelet neural network.",
+    "rule": "Not extracted",
+    "claim": "Outside the predefined eligibility rule.",
+    "provenance": "Excluded for computational scope, not for metrics or access."
+  },
+  "K06": {
+    "selection": "Included",
+    "access": "Abstract/preview; restriction verified",
+    "finding": "VQNN attack detection. Precision in the abstract cannot be converted to FPR.",
+    "rule": "Not consultable",
+    "claim": "High precision relative to comparators.",
+    "provenance": "Publisher access restriction and restricted institutional copy verified. Denominators, threshold and aggregation remain unknown."
+  },
+  "K07": {
+    "selection": "Included",
+    "access": "Full text and figures",
+    "finding": "Four row-normalized multiclass matrices identify approximate binary FPR. Unknown attack weights yield TPR ranges, not a single aggregate rate.",
+    "rule": "Collapse every non-Normal prediction to attack; no new threshold is selected.",
+    "claim": "Improved classification of Normal traffic and computational performance.",
+    "provenance": "Constructed traffic streams. Denominators and aggregation are unidentified; two-decimal rounding. Attack detection differs from attack-type identification."
+  },
+  "K08": {
+    "selection": "Eligibility pending",
+    "access": "Abstract; OA retrieval failed",
+    "finding": "The abstract does not resolve whether the optimized QNN uses a quantum circuit or a quantum-inspired neuron.",
+    "rule": "Not consultable",
+    "claim": "High accuracy with WOA/QNN and elliptic-curve cryptography.",
+    "provenance": "Technical eligibility remains unresolved; no exclusion for missing matrix. 403 is a retrieval failure, not verified paywall."
+  },
+  "K09": {
+    "selection": "Eligibility pending",
+    "access": "Abstract/record",
+    "finding": "QGAN/Qiskit confirmed, but empirical benign-versus-attack evaluation cannot be established from available text.",
+    "rule": "Not consultable",
+    "claim": "QGAN-based IDS proposal.",
+    "provenance": "IEEE retrieval returned an empty body; repository supplied a record. No substitution by a later QGAN paper."
+  },
+  "K10": {
+    "selection": "Included",
+    "access": "Full text, PDF and HTML tables",
+    "finding": "Complete Normal row:TN 5988, FP 12, n0=6000. Attack rows have 15 unallocated cases relative to Table 2. TPR = 1 - 8/4000 additionally assumes Table 2-3 correspondence and exhaustive Normal-column FN.",
+    "rule": "Entropy/fidelity and outlier rules described; the reported numerical decision threshold and independent calibration are not established.",
+    "claim": "High accuracy and qualitative reduction in false alarms; no numerical low-FPR target located.",
+    "provenance": "Custom node/instance scenario: 6000 Normal and 4 x 1000 attack nodes. Do not equate this scenario with the nominal 100000-record 70/15/15 split. FPR remains recoverable despite incomplete attack rows."
+  },
+  "K11": {
+    "selection": "Included",
+    "access": "Full text and figures",
+    "finding": "Ten complete matrices. Section 3.3 describes the local and quantum-simulator confusion matrices as training results. Main figure: descriptive rates only; hypothetical binomial intervals in supplement.",
+    "rule": "NeuralNetworkClassifier, COBYLA, 100 iterations; subset size varied. No independent test interpretation established.",
+    "claim": "Better reported performance at larger nominal sizes and on the IBM simulator.",
+    "provenance": "CIC-DDoS2019; each matrix totals 30% of nominal size, which does not establish a held-out test. Table 3 Precision/Recall columns match matrix-derived recall/precision respectively. Equal nominal size does not establish shared instances."
+  },
+  "K12": {
+    "selection": "Included",
+    "access": "Abstract; restriction verified",
+    "finding": "VQCNN evaluated on KDD CUP99 and UNSW-NB with adversarial perturbations; full results unavailable.",
+    "rule": "Not consultable",
+    "claim": "Smaller degradation under FGSM than comparison models.",
+    "provenance": "Publisher Available for Purchase verified. No inference of absent reporting."
+  },
+  "K13": {
+    "selection": "Included",
+    "access": "Author version/arXiv",
+    "finding": "F1 by dataset/model/backend and attack class; no jointly recoverable FPR/TPR denominators.",
+    "rule": "Classifier decisions; backend choice summarized through performance tables.",
+    "claim": "Competitive or higher F1 in selected configurations.",
+    "provenance": "QML-IDS family shared with K21. Tables from different versions retain their source-specific numbering; no pooling or assumed independent replication."
+  },
+  "K14": {
+    "selection": "Included",
+    "access": "Author full text",
+    "finding": "Normalized average metrics and plots; definitional confusion table is not an observed matrix.",
+    "rule": "Adaptive entropy/reinforcement-learning detection over episodes.",
+    "claim": "Improved detection and fewer false positives relative to QL/EQ.",
+    "provenance": "Normalized values 100/98 are not automatically accuracy 100%/TPR 98%. Temporal/adaptive dependence; no counts fabricated."
+  },
+  "K15": {
+    "selection": "Included",
+    "access": "Indexed accepted author text; corroborating thesis",
+    "finding": "Four raw 0/1 matrices, including noisy simulation/hardware. Semantic 0/1 mapping not confirmed; both mappings retained as sensitivity.",
+    "rule": "Sign/majority-vote decisions; architecture, optimizer and shot settings examined.",
+    "claim": "NISQ feasibility and close noisy-simulation/hardware performance on Aria.",
+    "provenance": "NF-UNSW-NB15, Harmony 60/40 and Aria 776-example subsets. Thesis chapter 3 repeats published tables; it supplies no new 2026 experiment to the corpus. Shots are not extra evaluation examples."
+  },
+  "K16": {
+    "selection": "Included",
+    "access": "Author full text",
+    "finding": "Three normalized matrices for 25/50/200 epochs; Actual/Predicted axes not identified. Conditional orientation only, outside main figure.",
+    "rule": "QFL/QNN decisions; no FPR-specific calibration located.",
+    "claim": "High accuracy with federated learning.",
+    "provenance": "NSL-KDD named. Table II Test+ is not automatically the denominator of Figure 7. Do not infer counts from rounded percentages."
+  },
+  "K17": {
+    "selection": "Included",
+    "access": "Full text and figures",
+    "finding": "Five Test matrices share n0=9251, n1=11332. QSVM improves FPR against all four classical detectors; TPR is lower than RF and higher than LR/KNN/DT.",
+    "rule": "SVM decisions with feature/parameter optimization. No recovered fixed-FPR threshold comparison.",
+    "claim": "Superior reported classification performance of QSVM-IGWO.",
+    "provenance": "Figure 7 labels Train/Test; counts imply 75/25, whereas text describes 80/20 and Table 4 reports 10-fold means. Matching denominators do not verify instance identity. No paired inference; do not relabel the dataset from numerical resemblance."
+  },
+  "K18": {
+    "selection": "Included",
+    "access": "Publisher abstract/snippets",
+    "finding": "QuIDS reports average recall/precision/F1 across two datasets; no identifiable joint point with FPR and denominators.",
+    "rule": "Not consultable in full",
+    "claim": "QSVC with four qubits/eight features and favorable average metrics.",
+    "provenance": "Full text not recovered;403 alone does not prove a paywall. Preserve averages, not inferred matrix counts."
+  },
+  "K19": {
+    "selection": "Included",
+    "access": "Abstract; OA recovery failed",
+    "finding": "QCNN-ID hybrid IDS, comparison with CNN; detailed results not recovered.",
+    "rule": "Not consultable",
+    "claim": "Improvement over CNN in the abstract.",
+    "provenance": "HAL challenge and publisher 403. No replacement with third-party reproduction or unverified absence of report."
+  },
+  "K20": {
+    "selection": "Included",
+    "access": "Full text",
+    "finding": "Accuracy/precision/recall/F1 for CQNN,CQBM,CQKM on CIC-DDoS2019 and Kaggle DDoS SDN; no verified class denominators and aggregation link.",
+    "rule": "Sigmoid output; numerical reporting threshold not identified.",
+    "claim": "High performance for selected hybrid models.",
+    "provenance": "Nominal 70/30 split does not identify per-class test counts. Metrics are retained without algebraic inversion into a matrix."
+  },
+  "K21": {
+    "selection": "Included",
+    "access": "Indexed full text",
+    "finding": "QuantumNetSec reports F1 by datasets/models/backends and attack class; no joint FPR/TPR counts.",
+    "rule": "Circuit/backend optimization and classifier outputs; maxima of reported F1 guide comparisons.",
+    "claim": "Personalized optimization improves performance of quantum models.",
+    "provenance": "Section 6.1 links earlier research, including K13. Two reports in one documentary family, not two independent replications."
+  },
+  "K22": {
+    "selection": "Included",
+    "access": "Full paper and saved author code",
+    "finding": "Table 1 reports accuracy/F1 by configuration. Code evaluates benign/attack data, but table-to-run/threshold identity is unverified.",
+    "rule": "Saved code evaluates thresholds 0.1-0.9 each epoch. Benign is positive 1; do not treat its F1 as attack-positive by default.",
+    "claim": "Best reported accuracy 0.937/F1 0.9384.",
+    "provenance": "Code prepares 500 benign + 500 attacks and 200 separate benign training records; no saved FP/TP outputs for the final run. Code was not executed to fill missing evidence."
+  },
+  "K23": {
+    "selection": "Included",
+    "access": "Text available; matrix images unrecovered",
+    "finding": "Accuracy/precision/recall/F1 available; Figures 11-12 exist but their cells could not be recovered.",
+    "rule": "QSVC/QRF before/after optimizer selection; reported metric-to-configuration link incompletely identified.",
+    "claim": "Optimized quantum models achieve higher reported accuracy.",
+    "provenance": "1000 samples, class mix and 80/20 versus 700/300 descriptions are not linked to individual matrices. This is image retrieval failure, not absent matrix reporting."
+  },
+  "K24": {
+    "selection": "Included",
+    "access": "Primary abstract/metadata",
+    "finding": "ToN-IoT Pegasos-QSVC accuracy 93.05%, F1 93.73%; full quantitative point not recovered.",
+    "rule": "Not consultable in full",
+    "claim": "Best reported performance among tested QML configurations.",
+    "provenance": "QCE 2025 report retained. A later expanded paper does not replace this version. Same authors as K22 do not establish identical experiments."
+  },
+  "K25": {
+    "selection": "Included",
+    "access": "Indexed author-deposited text",
+    "finding": "QSVM/SVM accuracy/precision/recall/F1 on NSL-KDD and CICIDS2017; no identifiable n0/n1 and aggregation procedure.",
+    "rule": "SVM/QSVM class decisions; numerical operating threshold unlocated.",
+    "claim": "QSVM improves the four reported metrics relative to SVM.",
+    "provenance": "Preserve matched table descriptions without deriving FPR from rounded metrics or inventing test counts."
+  }
+}

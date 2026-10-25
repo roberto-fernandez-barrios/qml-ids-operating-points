@@ -1,0 +1,430 @@
+[
+  {
+    "id": "K01",
+    "doi": "10.1109/NCA51143.2020.9306691",
+    "url": "https://doi.org/10.1109/NCA51143.2020.9306691",
+    "title": "Towards Quantum-Enhanced Machine Learning for Network Intrusion Detection",
+    "authors_as_recorded": "Gouveia y Correia",
+    "year_as_recorded": 2020,
+    "eligibility": "Included",
+    "access": "Full text",
+    "location_and_version": "Section V.A, p. 4; Tables I-II, p. 6; author PDF",
+    "consulted_source_fingerprints": {
+      "../metainvestigacion_fpr_2026-10-23/fuentes/S1_gouveia_2020.pdf": "9903f0ac27ccb01f4ca276532ec01d476c6f6bdccf0f0a64e0a2e169da149d41"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K02",
+    "doi": "10.1016/j.knosys.2020.106167",
+    "url": "https://doi.org/10.1016/j.knosys.2020.106167",
+    "title": "Quantum-inspired ant lion optimized hybrid k-means for cluster analysis and intrusion detection",
+    "authors_as_recorded": "Chen et al.",
+    "year_as_recorded": 2020,
+    "eligibility": "Excluded",
+    "access": "Primary abstract",
+    "location_and_version": "Primary abstract; Kaissar Table 4 (scope exclusion)",
+    "consulted_source_fingerprints": {
+      "../metainvestigacion_fpr_2026-10-23/CRIBADO_Y_ANTECEDENTES.txt": "3ab92db1b6fb53eb30753ccc45c5913826f491ab489cb153036bc8abaea7b12c"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K03",
+    "doi": "10.1117/12.2593297",
+    "url": "https://doi.org/10.1117/12.2593297",
+    "title": "Quantum machine learning for intrusion detection of distributed denial of service attacks: a comparative overview",
+    "authors_as_recorded": "Payares y Martinez-Santos",
+    "year_as_recorded": 2021,
+    "eligibility": "Included",
+    "access": "Indexed author-deposited published text and code",
+    "location_and_version": "Published text deposited by author on ResearchGate, 28 April 2021, cross-checked with the UTB repository; Table 1, printed p. 5; Figures 6-7, p. 6; Figures 8-9, p. 7. Figure 10 caption on p. 8 recovered, but its cells are not independently readable",
+    "consulted_source_fingerprints": {
+      "../metainvestigacion_fpr_2026-10-23/fuentes/S2_extraccion_web.txt": "bed285aeeb3119070f463bb1c46a2737070869f6f54294f899962aa120894cf9",
+      "fuentes/K03_segunda_fuente_web.txt": "aedc013b9e0905a25b2a3a5bf7ce608489e27d16daced5472300d8438af5142a"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K04",
+    "doi": "10.1145/3573942.3574105",
+    "url": "https://doi.org/10.1145/3573942.3574105",
+    "title": "Full-Rotation Quantum Convolutional Neural Network for Abnormal Intrusion Detection System",
+    "authors_as_recorded": "Chao et al.",
+    "year_as_recorded": 2022,
+    "eligibility": "Included",
+    "access": "Abstract; full-text retrieval failed",
+    "location_and_version": "Publisher/INSPIRE abstract; published DOI record dated 23 September 2022",
+    "consulted_source_fingerprints": {
+      "fuentes/Chao_Gong_busqueda_web.txt": "cc93f0a584d0249a1a55b1a087fdef281dc8464cb4188366994394f14ae17524",
+      "fuentes/K04_openalex.json": "6f96d9e30d8b4923f6febb94999e8f7cc590d7b545b69a63869373767b708cca",
+      "../metainvestigacion_fpr_2026-10-23/cinco_registros.json": "2e1cc0b9fe0e97cf0ff782ad46f28a4ca3527ce7c4d02e7c9127a47380617603"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K05",
+    "doi": "10.1016/j.seta.2022.102312",
+    "url": "https://doi.org/10.1016/j.seta.2022.102312",
+    "title": "A Novel Metaheuristics with Deep Learning Enabled Intrusion Detection System for Secured Smart Environment",
+    "authors_as_recorded": "Malibari et al.",
+    "year_as_recorded": 2022,
+    "eligibility": "Excluded",
+    "access": "Primary abstract",
+    "location_and_version": "Primary abstract; Kaissar Table 4 (scope exclusion)",
+    "consulted_source_fingerprints": {
+      "../metainvestigacion_fpr_2026-10-23/CRIBADO_Y_ANTECEDENTES.txt": "3ab92db1b6fb53eb30753ccc45c5913826f491ab489cb153036bc8abaea7b12c"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K06",
+    "doi": "10.1007/s11227-022-04542-z",
+    "url": "https://doi.org/10.1007/s11227-022-04542-z",
+    "title": "Network attack detection scheme based on variational quantum neural network",
+    "authors_as_recorded": "Gong, Guan, Gani y Qi",
+    "year_as_recorded": 2022,
+    "eligibility": "Included",
+    "access": "Abstract/preview; restriction verified",
+    "location_and_version": "Publisher preview and restricted institutional repository record",
+    "consulted_source_fingerprints": {
+      "fuentes/K06_springer.html": "36bb62060b4a8a73970157f46243679795dadfe66ff9b4212537ca2f4ffb004e",
+      "fuentes/Chao_Gong_busqueda_web.txt": "cc93f0a584d0249a1a55b1a087fdef281dc8464cb4188366994394f14ae17524",
+      "../metainvestigacion_fpr_2026-10-23/fuentes/S4_repository.txt": "25cbe67cac8203d0be28284e382485d1a9be9b4a7032df1b553760a2f81b15e2"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K07",
+    "doi": "10.1007/s11416-022-00435-0",
+    "url": "https://doi.org/10.1007/s11416-022-00435-0",
+    "title": "Security intrusion detection using quantum machine learning techniques",
+    "authors_as_recorded": "Kalinin y Krundyshev",
+    "year_as_recorded": "online 2022; volumen 2023",
+    "eligibility": "Included",
+    "access": "Full text and figures",
+    "location_and_version": "Publisher full text, The experimental study; Figures 5-8; online 2022, journal volume 2023",
+    "consulted_source_fingerprints": {
+      "../metainvestigacion_fpr_2026-10-23/fuentes/S5_kalinin_2022.html": "5f8ea301cc6498cdb61a57a26e53844c2abe275a66836215aff8a71ab2631323",
+      "../metainvestigacion_fpr_2026-10-23/fuentes/S5_fig5.jpg": "d49d393c3948d6feaaf09984cb11f0ceca99be6f6271d4494d1b7d051b8b8b39",
+      "../metainvestigacion_fpr_2026-10-23/fuentes/S5_fig6.jpg": "bf5af1ae2f8667060ecedf60487b980a7de6df936dc1f1b00494330cda70bb21",
+      "../metainvestigacion_fpr_2026-10-23/fuentes/S5_fig7.jpg": "a7a9a0c7a093a322f1f27f9e87cfa429c5ac9324d47e2d00299987cd39279491",
+      "../metainvestigacion_fpr_2026-10-23/fuentes/S5_fig8.jpg": "3dba8e5775179cffaf38020b3676973a9f6df54265738b090b02df52b9ccb06f"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K08",
+    "doi": "10.1016/j.aej.2023.03.072",
+    "url": "https://doi.org/10.1016/j.aej.2023.03.072",
+    "title": "Intrusion detection model using optimized quantum neural network and elliptical curve cryptography for data security",
+    "authors_as_recorded": "Kadry, Farouk, Zanaty y Reyad",
+    "year_as_recorded": 2023,
+    "eligibility": "Eligibility pending",
+    "access": "Abstract; OA retrieval failed",
+    "location_and_version": "Publisher abstract, ScienceDirect article S1110016823002430",
+    "consulted_source_fingerprints": {
+      "fuentes/K08_openalex.json": "bf73e5468a3d61eb3f6d5a2443a21829511b3d38b638b5c4edab475a47661657",
+      "fuentes/web_primarios_8_19_23_21.txt": "3df4b6fdce06f54222c49ae682eb0a39bae52db3467e54bcad5c2729298d1406"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K09",
+    "doi": "10.1109/COMPSAC57700.2023.00280",
+    "url": "https://doi.org/10.1109/COMPSAC57700.2023.00280",
+    "title": "A Quantum Generative Adversarial Network-based Intrusion Detection System",
+    "authors_as_recorded": "Rahman, Shahriar, Clincy, Hossain y Rahman",
+    "year_as_recorded": 2023,
+    "eligibility": "Eligibility pending",
+    "access": "Abstract/record",
+    "location_and_version": "IEEE abstract; UWF institutional record 99381798259606600",
+    "consulted_source_fingerprints": {
+      "fuentes/K09_abstract_editorial.txt": "a497e1e2beba3e20738f2a9f68cc603f2b79153291f5da857ea0331c623fa3f0",
+      "fuentes/K09_openalex.json": "fd6bbcc6e98c1f3b75c9743cd483724cbd3893cb978ac72e7122aa8f9f24a380"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K10",
+    "doi": "10.1038/s41598-024-78389-0",
+    "url": "https://doi.org/10.1038/s41598-024-78389-0",
+    "title": "Quantum intrusion detection system using outlier analysis",
+    "authors_as_recorded": "Kim y Madhavi",
+    "year_as_recorded": 2024,
+    "eligibility": "Included",
+    "access": "Full text, PDF and HTML tables",
+    "location_and_version": "Publisher PDF and HTML; Algorithm 1, pp. 7-8; Results, pp. 8-10; Tables 2-3, p. 9",
+    "consulted_source_fingerprints": {
+      "fuentes/K10_nature.pdf": "883ce49aa6013c2dd19a253e485a86c50dfd7a0335b56eaf1f3b3746f08f126c",
+      "fuentes/K10_nature.html": "3fe75e65c2fe4b2493a0cf840e28cabd769f1055567052a38be3e6250d5e4a07",
+      "fuentes/K10_table3.html": "638a8fde74a45ba7b34f27fc5794362cf48d13d8a571a6f8b093359057af7090"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K11",
+    "doi": "10.1002/qute.202400084",
+    "url": "https://doi.org/10.1002/qute.202400084",
+    "title": "Quantum-Neural Network Model for Platform Independent Ddos Attack Classification in Cyber Security",
+    "authors_as_recorded": "Küçükkara, Atban y Bayılmıș",
+    "year_as_recorded": 2024,
+    "eligibility": "Included",
+    "access": "Full text and figures",
+    "location_and_version": "Published PDF preserved by DNB; Section 2.8, p. 8; Section 3.3, p. 9; Figures 4-5, pp. 10-11; Table 3, p. 12",
+    "consulted_source_fingerprints": {
+      "fuentes/K11_dnb.pdf": "c8333ae94b6d66df57574152df767fe7552edecb4b3c5c6030c0b470e0e134cd"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K12",
+    "doi": "10.1093/comjnl/bxae062",
+    "url": "https://doi.org/10.1093/comjnl/bxae062",
+    "title": "VQCNN: variational quantum convolutional neural networks based on quantum filters and fully connected layers",
+    "authors_as_recorded": "Qi, Wang y Cui",
+    "year_as_recorded": 2024,
+    "eligibility": "Included",
+    "access": "Abstract; restriction verified",
+    "location_and_version": "Oxford publisher abstract; Available for Purchase status",
+    "consulted_source_fingerprints": {
+      "fuentes/K12_abstract_editorial.txt": "c6feac41acf594c682c9fbf4b5524cc3306ee7b261e05a951571efe50d8e3386",
+      "fuentes/K12_acceso_confirmado.txt": "65db3a0a974dcde982c4f3790f30cde9507fa2d1c7955eed9173b137db0fbbdc"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K13",
+    "doi": "10.1109/ISCC61673.2024.10733655",
+    "url": "https://doi.org/10.1109/ISCC61673.2024.10733655",
+    "title": "QML-IDS: Quantum Machine Learning Intrusion Detection System",
+    "authors_as_recorded": "Abreu, Rothenberg y Abelém",
+    "year_as_recorded": 2024,
+    "eligibility": "Included",
+    "access": "Author version/arXiv",
+    "location_and_version": "Author/arXiv version 2410.16308; Sections V-VI, pp. 4-6; Tables II-VII. Table numbering retained per version",
+    "consulted_source_fingerprints": {
+      "fuentes/K13_arxiv.pdf": "47d4d5a7a9da96f4fc120cf1c589653a15177c4a96ebfcd59846d1e346e86abf",
+      "fuentes/K13_author.pdf": "6d865f67c7d46a43d123392af5d4f6503e53851faffbcff4510521df157f08d4"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K14",
+    "doi": "10.1109/ACCESS.2024.3441931",
+    "url": "https://doi.org/10.1109/ACCESS.2024.3441931",
+    "title": "Quantum Entropy and Reinforcement Learning for Distributed Denial of Service Attack Detection in Smart Grid",
+    "authors_as_recorded": "Said, Bagaa, Oukaira y Lakhssassi",
+    "year_as_recorded": 2024,
+    "eligibility": "Included",
+    "access": "Author full text",
+    "location_and_version": "Author full text; Section VI, pp. 8-10; Table 2, p. 8; Figure 7 and Table 4, p. 9; Figure 8, p. 10",
+    "consulted_source_fingerprints": {
+      "fuentes/K14_inspire.pdf": "43358c52a267457fc0eea3bb684d5818f1f44cbbcd075ff1a73139c43f4991db"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K15",
+    "doi": "10.1109/TQE.2024.3359574",
+    "url": "https://doi.org/10.1109/TQE.2024.3359574",
+    "title": "Network Anomaly Detection Using Quantum Neural Networks on Noisy Quantum Computers",
+    "authors_as_recorded": "Kukliansky, Orescanin, Bollmann y Huffmire",
+    "year_as_recorded": 2024,
+    "eligibility": "Included",
+    "access": "Indexed accepted author text; corroborating thesis",
+    "location_and_version": "Accepted IEEE author text; Tables 5 and 7, p. 8; Sections II.B and III.D-F. Later author thesis, chapter 3, Tables 3.5 and 3.7, PDF pp. 59 and 61, corroborates the same four matrices only",
+    "consulted_source_fingerprints": {
+      "fuentes/K15_K25_tablas_web.txt": "ce1a64b858db09bcd5b1ccc91b16faffdf250bf24970f5dfb2cb206ad204e439",
+      "fuentes/K15_K25_metodos_y_matrices_web.txt": "a911c1508ef1d91d3c9b038be617642db0e104da993a1def4e2198843b7bab12",
+      "fuentes/K15_datos_etiquetas_referencias.txt": "50cc7af1fd7243d5aa257f143293b1f9854517b0cd804a9bd99ee1af15e97ab6",
+      "fuentes/K15_tesis_autor.pdf": "763d055aef6d696f0496f398552935bffb42f9fa719a499659e510dcd662cac6"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K16",
+    "doi": "10.1109/TCE.2024.3458985",
+    "url": "https://doi.org/10.1109/TCE.2024.3458985",
+    "title": "A Privacy-Preserving Framework for Efficient Network Intrusion Detection in Consumer Network Using Quantum Federated Learning",
+    "authors_as_recorded": "Abou El Houda, Moudoud, Brik y Adil",
+    "year_as_recorded": 2024,
+    "eligibility": "Included",
+    "access": "Author full text",
+    "location_and_version": "Author PDF; Section IV, pp. 5-8; Figure 7, p. 8; Table II",
+    "consulted_source_fingerprints": {
+      "fuentes/K16_author.pdf": "af0c652e2467cb2e5fda5b22ac88c7506b034ddf9a274d8256522f4af9eda634"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K17",
+    "doi": "10.1007/s10586-024-04458-8",
+    "url": "https://doi.org/10.1007/s10586-024-04458-8",
+    "title": "A novel intrusion detection system based on a hybrid quantum support vector machine and improved grey wolf optimizer",
+    "authors_as_recorded": "Elsedimy, Elhadidy y Abohashish",
+    "year_as_recorded": 2024,
+    "eligibility": "Included",
+    "access": "Full text and figures",
+    "location_and_version": "Published PDF preserved by DNB and publisher HTML; Section 4, pp. 11-16; Table 4, p. 14; Figure 7, p. 15; Figure 8, p. 16",
+    "consulted_source_fingerprints": {
+      "fuentes/K17_dnb.pdf": "be0882df7a25b48b1899d4a2f1a7ab533b09c635dee3f406862324b631ee8335",
+      "fuentes/K17_springer.html": "62fccf0f9a41b0c4f48ec9ca2062cafcf639652c594edaffc008daaadb4ba506"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K18",
+    "doi": "10.1016/j.jnca.2024.104072",
+    "url": "https://doi.org/10.1016/j.jnca.2024.104072",
+    "title": "QuIDS: A Quantum Support Vector machine-based Intrusion Detection System for IoT networks",
+    "authors_as_recorded": "Kumar y Swarnkar",
+    "year_as_recorded": 2025,
+    "eligibility": "Included",
+    "access": "Publisher abstract/snippets",
+    "location_and_version": "Publisher abstract, introduction and section previews; full methodological text not recovered",
+    "consulted_source_fingerprints": {
+      "fuentes/K18_preview_editorial.txt": "df7cf0d52882f6255a5335ee311d2cb0b5e95cb68a22389be96c208b49a9b7a5"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K19",
+    "doi": "10.1016/j.procs.2025.09.340",
+    "url": "https://doi.org/10.1016/j.procs.2025.09.340",
+    "title": "QCNN-ID: A Quantum-Classical Hybrid Model for IoT Intrusion Detection",
+    "authors_as_recorded": "Marwen Amara, Marwa Amara, Mnasri y Val",
+    "year_as_recorded": 2025,
+    "eligibility": "Included",
+    "access": "Abstract; OA recovery failed",
+    "location_and_version": "ScienceDirect abstract and HAL deposit 05080861; full text recovery failed",
+    "consulted_source_fingerprints": {
+      "fuentes/K19_abstract_editorial.txt": "a481e5192cb85d2f1dfc2fe56407f63a95976bbb8a74876869ac162371c6546f",
+      "fuentes/K19_openalex.json": "cadeb5aa1e3dc919a7bbe45f52e9e5f8e6a8b60959dd697389da0e48f02ccf07"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K20",
+    "doi": "10.3390/info16090722",
+    "url": "https://doi.org/10.3390/info16090722",
+    "title": "A Hybrid Classical-Quantum Neural Network Model for DDoS Attack Detection in Software-Defined Vehicular Networks",
+    "authors_as_recorded": "Sarvade, Kulkarni y Raj",
+    "year_as_recorded": 2025,
+    "eligibility": "Included",
+    "access": "Full text",
+    "location_and_version": "Publisher PDF; Sections 3-4, pp. 7-14; Tables 5-6",
+    "consulted_source_fingerprints": {
+      "fuentes/K20_mdpi.pdf": "29c56c73def1b24b20c91aa37aa187219d023dd4b03163a47b97ce6105d96d1e"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K21",
+    "doi": "10.1002/nem.70018",
+    "url": "https://doi.org/10.1002/nem.70018",
+    "title": "QuantumNetSec: Quantum Machine Learning for Network Security",
+    "authors_as_recorded": "Abreu, Moura, Rothenberg y Abelém",
+    "year_as_recorded": 2025,
+    "eligibility": "Included",
+    "access": "Indexed full text",
+    "location_and_version": "Indexed Wiley published version, 2025; Sections 5-6; Tables 4-10",
+    "consulted_source_fingerprints": {
+      "fuentes/K21_metodos_web.txt": "bd13fe485d6dbea633e953c9dae0fa178a5d99d174f2dc2b03a4890a338e1280",
+      "fuentes/K21_resultados_y_RGloc.txt": "c05a6bd1c88e5305f512dec2bcf126e498591f6893cb06f30936830071d55f87"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K22",
+    "doi": "10.5220/0013397800003890",
+    "url": "https://doi.org/10.5220/0013397800003890",
+    "title": "Intrusion Detection System Based on Quantum Generative Adversarial Network",
+    "authors_as_recorded": "Cirillo y Esposito",
+    "year_as_recorded": 2025,
+    "eligibility": "Included",
+    "access": "Full paper and saved author code",
+    "location_and_version": "SCITEPRESS full paper, Sections 4-5, Table 1, p. 7; saved author notebook cells 21, 22, 33, 34 (zero-based); commit eeb3a8f762dd1f3cc9a10aca66361ca59ba10f25",
+    "consulted_source_fingerprints": {
+      "fuentes/K22_scitepress.pdf": "14006c35a57b4132c68c14d0645f5036b3d2fc6287a312e6101c56d558d1f058",
+      "fuentes/K22_QGAN.ipynb": "d52dcaf73aa7417056065d92ff15a33ce1f3d560a72f28c5e73abadb99f82769",
+      "fuentes/K22_QGAN.cells.txt": "07a824803f53802686c47d8ac2ecdf470d58c2269d92585bc7cc603c9eeab406"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K23",
+    "doi": "10.1049/qtc2.70020",
+    "url": "https://doi.org/10.1049/qtc2.70020",
+    "title": "Internet of Things Network Intrusion Detection System Using Quantum and Classical Machine Learning",
+    "authors_as_recorded": "Kavitha S. S., Dhanush Sagar M. D. y Deepak S.",
+    "year_as_recorded": 2025,
+    "eligibility": "Included",
+    "access": "Text available; matrix images unrecovered",
+    "location_and_version": "Indexed Wiley full text; Sections 3.1, 3.4, 3.5 and 4; Tables 1-3; Figures 11-12 exist but image cells were not recovered",
+    "consulted_source_fingerprints": {
+      "fuentes/K23_metodos_resultados_web.txt": "6a6042956a70ea7fc94a282766a66b0fe9efbdbcbb181ffbe70cc3f01bf92d6c",
+      "fuentes/web_primarios_8_19_23_21.txt": "3df4b6fdce06f54222c49ae682eb0a39bae52db3467e54bcad5c2729298d1406",
+      "fuentes/K23_segunda_fuente_web.txt": "697a2201199e1710d8c766441710080a3c771864294195b473574a2f20eeafbf"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K24",
+    "doi": "10.1109/QCE65121.2025.00184",
+    "url": "https://doi.org/10.1109/QCE65121.2025.00184",
+    "title": "Quantum Machine Learning for Intrusion Detection on Noisy Quantum Computers",
+    "authors_as_recorded": "Cirillo y Esposito",
+    "year_as_recorded": 2025,
+    "eligibility": "Included",
+    "access": "Primary abstract/metadata",
+    "location_and_version": "IEEE/DOI abstract and OpenAlex metadata for the 2025 QCE report; not substituted by a later expanded article",
+    "consulted_source_fingerprints": {
+      "fuentes/K24_openalex.json": "34404c47d84f2100f8552c963c6faf3298bbf635182d3c0baae6000130e2a705",
+      "fuentes/closed_and_ieee_info.txt": "e11b89f73d64d093bd6e34033c113a8be6f9b9a9ec5273d599f34d044e868f6a"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  },
+  {
+    "id": "K25",
+    "doi": "10.1109/ICNGCS64900.2025.11182700",
+    "url": "https://doi.org/10.1109/ICNGCS64900.2025.11182700",
+    "title": "Quantum Machine Learning-Based Anomaly Detection for Cybersecurity Systems",
+    "authors_as_recorded": "Kumar, Varghese, Vidhya, Vigneshkumar, Santhoshkumar y Vikram",
+    "year_as_recorded": 2025,
+    "eligibility": "Included",
+    "access": "Indexed author-deposited text",
+    "location_and_version": "Author-deposited text on ResearchGate, 10 October 2025; Sections IV-V; Table II",
+    "consulted_source_fingerprints": {
+      "fuentes/K15_K25_tablas_web.txt": "ce1a64b858db09bcd5b1ccc91b16faffdf250bf24970f5dfb2cb206ad204e439",
+      "fuentes/K15_K25_metodos_y_matrices_web.txt": "a911c1508ef1d91d3c9b038be617642db0e104da993a1def4e2198843b7bab12",
+      "fuentes/K21_resultados_y_RGloc.txt": "c05a6bd1c88e5305f512dec2bcf126e498591f6893cb06f30936830071d55f87"
+    },
+    "source_copies_in_reproduction_package": false,
+    "source_access_note": "Consult original DOI/deposit. Fingerprints identify consulted files; absence of these copyrighted source files in the package is intentional and not an integrity failure."
+  }
+]

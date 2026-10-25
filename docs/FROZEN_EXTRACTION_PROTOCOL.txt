@@ -1,0 +1,53 @@
+Marco completo Kaissar — 24-10-2026
+
+Pregunta autorizada: En los estudios elegibles de este corpus, ¿qué evidencia
+cuantitativa puede recuperarse sobre falsos positivos y detección de ataques en
+el mismo punto de operación, y qué alcance tienen esas conclusiones según el
+tamaño de evaluación y la selección del umbral?
+
+Se mantienen las cinco selecciones del piloto y sus versiones originales.
+Se criban las 18 entradas restantes de Table 2 de DOI 10.3390/fi18050234.
+Mismos criterios: artículo empírico publicado, detección de tráfico benigno y
+ataque, componente de cómputo cuántico real o simulado. Quantum-inspired sin
+tal componente se excluye. No se condiciona a signo, matrices ni disponibilidad.
+Se conservarán entradas ambiguas y estudios no accesibles; no se sustituirán.
+La tabla de selección conservará las 25 filas y la relación entre informes del
+mismo estudio. Modelos, splits y puntos de operación no son estudios independientes.
+
+Acceso: distinguir texto completo, versión de autor identificada, extracto,
+fallo de recuperación y restricción editorial explícita. HTTP 403 por sí solo
+no demuestra paywall. No evadir controles ni contactar autores sin autorización.
+Chao/Gong se investigan junto con el resto; no bloquean la síntesis.
+
+Extracción: estudio, fuente/versión, conjunto realmente evaluado, unidad,
+detector, regla/selección de umbral, n0/n1, FP/TN/FN/TP o ratios originales,
+agregación y correspondencia entre cifras. FPR y TPR sólo del mismo punto.
+Matrices normalizadas, medias y ROC interpoladas no se convierten en counts.
+Un denominador nominal de split no identifica automáticamente cada resultado.
+
+Análisis: tasa observada; resolución 1/n0 cuando n0 es verificable; incertidumbre
+de muestreo; garantía de calibración, por separado. Límites CP unilaterales 95%
+por defecto CONDICIONALES a i.i.d. y detector/umbral independiente de test.
+Ausencia de calibración FPR no es un defecto automático de evaluación.
+U95>referencia significa no respaldar la cota por ese procedimiento; no demuestra
+que la tasa verdadera sea mayor. Referencias nuestras: 1%, 0.1%, 0.01%, separadas
+de objetivos explícitos de autores. Sin garantía simultánea ni pooling de FP.
+Se conservan TPR, confirmaciones y comparaciones Q–C interpretables; estas
+últimas no son condición de inclusión ni del análisis principal.
+
+Denominador: corpus previamente filtrado por calidad de Kaissar, no todo QML-IDS.
+DP-QIDS y otros contrastes recientes se mantienen externos. No búsqueda 2026
+exhaustiva ni nuevos experimentos de detectores. No redacción ni revistas.
+
+Segunda comprobación: nueva lectura de campos decisivos desde imágenes/tablas
+o versión primaria alternativa, comparada después con extracción inicial;
+aritmética independiente por inversión binomial/directa; log por campo con
+acuerdo, corrección o ambigüedad. Se explicitará que una comprobación técnica por
+otro procedimiento no equivale a extracción por un segundo investigador humano.
+Figura: resultados recuperables con TPR y FPR; tasas sin denominadores separadas
+de counts; incertidumbre condicional claramente diferenciada de garantías
+sustentadas. No rellenar grupos de garantías si ninguno resulta verificable.
+
+Decisión final: una contribución empírica nueva, relevante y suficientemente
+sustentada; ni obligación de hallar fallos ni de invertir comparaciones. Si sólo
+quedan omisiones/ejemplos aislados, cerrar la candidata con esa evidencia.

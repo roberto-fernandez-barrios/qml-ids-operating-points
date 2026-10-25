@@ -1,0 +1,16 @@
+{
+ "_provenance":"Fallback author initials and venues checked against Kaissar references 14 and 28-51, DOI-linked primary source headings where accessible. These fields do not modify extracted results.",
+ "K03":{"authors":"E. D. Payares and J. C. Martinez-Santos","journal":"Proceedings of SPIE","detail":"11699"},
+ "K05":{"authors":"A. A. Malibari, S. S. Alotaibi, R. Alshahrani, S. Dhahbi, R. Alabdan, F. N. Al-wesabi, and A. M. Hilal","journal":"Sustainable Energy Technologies and Assessments","detail":"52:102312"},
+ "K07":{"authors":"M. Kalinin and V. Krundyshev","journal":"Journal of Computer Virology and Hacking Techniques","detail":"19:125-136"},
+ "K10":{"authors":"T. H. Kim and S. Madhavi","journal":"Scientific Reports","detail":"14:27114"},
+ "K13":{"authors":"D. Abreu, C. E. Rothenberg, and A. Abelém","journal":"2024 IEEE Symposium on Computers and Communications (ISCC)","detail":""},
+ "K15":{"authors":"A. Kukliansky, M. Orescanin, C. Bollmann, and T. Huffmire","journal":"IEEE Transactions on Quantum Engineering","detail":"5:3100611"},
+ "K16":{"authors":"Z. Abou El Houda, H. Moudoud, B. Brik, and M. Adil","journal":"IEEE Transactions on Consumer Electronics","detail":"70:7121-7128"},
+ "K17":{"authors":"E. I. Elsedimy, H. Elhadidy, and S. M. M. Abohashish","journal":"Cluster Computing","detail":"27:9917-9935"},
+ "K18":{"authors":"R. Kumar and M. Swarnkar","journal":"Journal of Network and Computer Applications","detail":"234:104072"},
+ "K20":{"authors":"V. P. Sarvade, S. A. Kulkarni, and C. V. Raj","journal":"Information","detail":"16:722"},
+ "K22":{"authors":"F. Cirillo and C. Esposito","journal":"Proceedings of the International Conference on Agents and Artificial Intelligence (ICAART)","detail":"1:830-838"},
+ "K23":{"authors":"S. S. Kavitha, M. D. Dhanush Sagar, and S. Deepak","journal":"IET Quantum Communication","detail":"6:e70020"},
+ "K24":{"authors":"F. Cirillo and C. Esposito","journal":"2025 IEEE International Conference on Quantum Computing and Engineering (QCE)","detail":"1:1665-1675"}
+}
