@@ -2,10 +2,10 @@ cff-version: 1.2.0
 message: "Cite this reproducibility artifact together with its companion manuscript and retain the source-study identifiers."
 type: software
 title: "QML-IDS Operating Points: reproducibility artifact for the Kaissar corpus"
-version: "2.1.0"
-doi: "10.5281/zenodo.23641767"
+version: "2.2.0"
+doi: "10.5281/zenodo.23642804"
 repository-code: "https://github.com/roberto-fernandez-barrios/qml-ids-operating-points"
-url: "https://doi.org/10.5281/zenodo.23641767"
+url: "https://doi.org/10.5281/zenodo.23642804"
 date-released: "2026-10-25"
 license:
   - MIT

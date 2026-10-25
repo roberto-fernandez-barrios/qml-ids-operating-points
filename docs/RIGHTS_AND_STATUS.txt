@@ -1,10 +1,13 @@
-Version 2.1.0, prepared 25 October 2026. Authors and declarations confirmed.
+Version 2.2.0, prepared 25 October 2026. Authors and declarations confirmed.
 Code: MIT. Derived data/documentation: CC BY 4.0. Exact scopes: LICENSING.txt.
 GitHub: https://github.com/roberto-fernandez-barrios/qml-ids-operating-points
-Fixed-version archive: https://doi.org/10.5281/zenodo.23641767
-Release tag: v2.1.0. The archive identifies software and derived data, not a published
+Version archive: https://doi.org/10.5281/zenodo.23642804
+Release: https://github.com/roberto-fernandez-barrios/qml-ids-operating-points/releases/tag/v2.2.0
+Historical v2.1.0 (unchanged): https://doi.org/10.5281/zenodo.23641767
+Release tag: v2.2.0. The archive identifies software and derived data, not a published
 journal article. The companion manuscript is prepared for manual submission.
 No primary texts/images/notebooks, MDPI template, editorial PDFs or credentials are
 included. Source locations and hashes identify privately consulted files, not inputs
 required for the portable reconstruction. The original protocol is historical.
-The separate focal human worksheet remains unsigned; author approval is confirmed.
+Human validation and author approval are confirmed complete. No independent
+duplicate extraction procedure or individual source-review signatures are claimed.

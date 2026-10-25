@@ -1,5 +1,5 @@
 {
-  "package": "v2.1.0 / author-confirmed 2026-10-25",
+  "package": "v2.2.0 / final provenance revision 2026-10-25",
   "extraction_frozen": "2026-10-24",
   "python": "3.13.12 | packaged by Anaconda, Inc. | (main, Feb 24 2026, 16:05:56) [MSC v.1942 64 bit (AMD64)]",
   "dependencies": {
@@ -9,8 +9,9 @@
   },
   "numerical_reference": "v1 / same closed corpus",
   "scope": "No new source corpus, detector evaluation or training",
-  "changes_since_v2": "Author metadata, confirmed declarations and repository licensing. Numerical schema and results unchanged.",
-  "version_doi": "10.5281/zenodo.23641767",
+  "changes_since_v2": "Uniform K03/K11 provenance rule; 6 primary conditional illustrations with unverified independence; legacy 10-point calculations retained; K07 FPR rounding displayed; K11 narrative rounding corrected; human validation closed by user confirmation. All source counts and original numerical fields preserved.",
   "repository": "https://github.com/roberto-fernandez-barrios/qml-ids-operating-points",
-  "release_tag": "v2.1.0"
+  "release_tag": "v2.2.0",
+  "previous_version_doi": "10.5281/zenodo.23641767",
+  "version_doi": "10.5281/zenodo.23642804"
 }

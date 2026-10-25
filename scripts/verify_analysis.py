@@ -56,9 +56,20 @@ for p in P:
 for r,e in [(.01,299),(.001,2995),(.0001,29956)]:ck('zero-FP size '+str(r),math.ceil(math.log(.05)/math.log1p(-r))==e)
 main=[p for p in P if p['principal']];conditional=[p for p in P if p['main_interval_display']]
 ck('main 24 points / 5 articles',len(main)==24 and len({p['study'] for p in main})==5)
-ck('conditional 10 points / 3 articles',len(conditional)==10 and len({p['study'] for p in conditional})==3)
-ck('complete sensitivity 9',len([p for p in conditional if p['tipo']=='conteos'])==9)
+ck('conditional 6 points / 2 articles',len(conditional)==6 and {p['study'] for p in conditional}=={'K10','K17'})
+ck('subordinate complete sensitivity 5',len([p for p in conditional if p['tipo']=='conteos'])==5)
 for t,ids in [(.01,['K10-P001']),(.001,[]),(.0001,[])]:ck('conditional reference '+str(t),[p['id'] for p in conditional if p['fpr_U95_cond']<=t]==ids)
+for p in [p for p in main if p['study']=='K03']:
+    ck(p['id']+' adjusted-test descriptive only',p['source_test_adjustments'] and not p['main_interval_display'] and 'Hypothetical only' in p['interval_status_en'])
+legacy=[p for p in main if p['study'] in ('K03','K10','K17')]
+ck('legacy calculation retained 10/3',len(legacy)==10 and len({p['study'] for p in legacy})==3)
+ck('legacy only K10 below 1 percent',[p['id'] for p in legacy if p['fpr_U95_cond']<.01]==['K10-P001'])
+ck('zero-error best denominator cannot support .01 percent',max(p['n0'] for p in conditional)==9251 and up(0,9251,.05)>.0001 and up(0,29955,.05)>.0001 and up(0,29956,.05)<=.0001)
+ck('K11 IBM 16000 TPR rounds to 91.375',format(100*get('K11','QNN IBM simulator','subset nominal=16000')['tpr'],'.3f')=='91.375')
+for p in [p for p in main if p['study']=='K07']:
+    expected={'SVM':[.355,.365],'QSVM':[.015,.025],'CNN':[.205,.215],'QCNN':[.015,.025]}[p['detector']]
+    ck(p['id']+' FPR rounding range',all(abs(a-b)<1e-12 for a,b in zip(expected,p['fpr_rounding_range'])))
+    ck(p['id']+' rounding is not sampling uncertainty','fpr_ci95_cond' not in p and not p['main_interval_display'])
 ck('selection 21/2/2',Counter(s['inclusion'] for s in S)=={'incluir':21,'excluir':2,'pendiente':2})
 ck('families 20',len({s['familia_informe'] for s in S if s['inclusion']=='incluir'})==20)
 ck('466 unique records',len(P)==len({p['id'] for p in P})==466)
@@ -79,6 +90,10 @@ for p in P:
         preserved=preserved and ok
         if not ok:ck(p['id']+' numerical preservation '+key,False,{'old':old,'new':new})
 ck('all numerical fields preserved from v1',preserved)
+fm=json.loads((R/'results/FIGURE_MANIFEST_V2_2.json').read_text())
+ck('figure exactly 24 distinct source points',len(fm['descriptive_point_ids'])==len(set(fm['descriptive_point_ids']))==24 and set(fm['descriptive_point_ids'])=={p['id'] for p in main})
+ck('figure six conditional / fourteen hypothetical / four range points',len(fm['conditional_interval_ids'])==6 and len(fm['no_interval_due_provenance_ids'])==14 and len(fm['rounding_range_ids'])==4)
+ck('figure intervals cannot include K03 or K11',all(i.startswith(('K10-','K17-')) for i in fm['conditional_interval_ids']))
 out={'date_utc':datetime.now(timezone.utc).isoformat(),'status':'PASS' if all(x['ok'] for x in checks) else 'FAIL','n_checks':len(checks),'max_interval_difference':max(errors),'checks':checks,'limits':'Portable numerical check of derived records and frozen transcription. Source copies intentionally absent. No new primary-source review, independent human review, verification of sampling independence, shared instances, label truth or transport. Original workspace audit is separate and optional.'}
 (R/'results/TECHNICAL_VERIFICATION_V2.json').write_text(json.dumps(out,indent=2,ensure_ascii=False),encoding='utf8')
 print({k:out[k] for k in ['status','n_checks','max_interval_difference']})

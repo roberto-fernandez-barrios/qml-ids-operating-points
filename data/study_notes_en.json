@@ -21,7 +21,7 @@
     "finding": "Four complete published matrices; H-QNN saved code output is supplementary because identity with Figure 10 was not established.",
     "rule": "Model class decisions; softmax for the neural/ensemble approaches. The source discusses adjustments after inspecting test behavior.",
     "claim": "High accuracy and favorable computational performance of QSVM/H-QNN relative to the ensemble.",
-    "provenance": "CIC-DDoS2019 BENIGN/SSDP, n0=442, n1=443. QPU-0/QPU-1 are simulator submodels. Preprocessing and post-test adjustments prevent unqualified fixed-detector inference."
+    "provenance": "CIC-DDoS2019 BENIGN/SSDP, n0=442, n1=443. QPU-0/QPU-1 are simulator submodels. Preprocessing and post-test adjustments prevent unqualified fixed-detector inference. Current rule: post-test adjustments place all K03 binomial intervals in the hypothetical supplement, not the six-point conditional block."
   },
   "K04": {
     "selection": "Included",
@@ -77,7 +77,7 @@
     "finding": "Complete Normal row:TN 5988, FP 12, n0=6000. Attack rows have 15 unallocated cases relative to Table 2. TPR = 1 - 8/4000 additionally assumes Table 2-3 correspondence and exhaustive Normal-column FN.",
     "rule": "Entropy/fidelity and outlier rules described; the reported numerical decision threshold and independent calibration are not established.",
     "claim": "High accuracy and qualitative reduction in false alarms; no numerical low-FPR target located.",
-    "provenance": "Custom node/instance scenario: 6000 Normal and 4 x 1000 attack nodes. Do not equate this scenario with the nominal 100000-record 70/15/15 split. FPR remains recoverable despite incomplete attack rows."
+    "provenance": "Custom node/instance scenario: 6000 Normal and 4 x 1000 attack nodes. Do not equate this scenario with the nominal 100000-record 70/15/15 split. FPR remains recoverable despite incomplete attack rows. Independence is not verified; this is a conditional illustration only."
   },
   "K11": {
     "selection": "Included",
@@ -133,7 +133,7 @@
     "finding": "Five Test matrices share n0=9251, n1=11332. QSVM improves FPR against all four classical detectors; TPR is lower than RF and higher than LR/KNN/DT.",
     "rule": "SVM decisions with feature/parameter optimization. No recovered fixed-FPR threshold comparison.",
     "claim": "Superior reported classification performance of QSVM-IGWO.",
-    "provenance": "Figure 7 labels Train/Test; counts imply 75/25, whereas text describes 80/20 and Table 4 reports 10-fold means. Matching denominators do not verify instance identity. No paired inference; do not relabel the dataset from numerical resemblance."
+    "provenance": "Figure 7 labels Train/Test; counts imply 75/25, whereas text describes 80/20 and Table 4 reports 10-fold means. Matching denominators do not verify instance identity. No paired inference; do not relabel the dataset from numerical resemblance. Independence is not verified; Figure 7 Test remains distinct from cross-validation means."
   },
   "K18": {
     "selection": "Included",

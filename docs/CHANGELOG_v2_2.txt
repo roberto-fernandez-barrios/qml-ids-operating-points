@@ -1,0 +1,16 @@
+v2.2.0 — final bounded revision, 25 October 2026
+No new corpus entries, source counts, detector runs or experiments.
+Main figure: all 24 descriptive points preserved; six conditional K10/K17 points
+have unverified independence. Four K03 points and ten K11 points have hypothetical
+intervals only in the supplement. The same provenance rule treats test-adjustment
+and training descriptions as contrary evidence for an independent-test reading.
+The legacy ten-point and nine-point complete-matrix calculations remain available.
+The current complete-matrix sensitivity has five K17 points; it does not invalidate
+K10 FPR, identified from its complete benign row. K07 FPR rounding ranges are shown
+under an explicit nearest-rounding assumption. K11 IBM/16000 TPR rounds to 91.375%.
+Main conditional denominator maximum 9251; zero-error minimum for .01% is 29956.
+Human validation and author confirmations are closed by the user's instruction;
+no independent duplicate extraction procedure is attributed to that validation.
+Version 2.1.0 and DOI 10.5281/zenodo.23641767 are historical and unchanged.
+The ANALYSIS_V2 / SUMMARY_V2 / TECHNICAL_VERIFICATION_V2 output filenames retain
+schema compatibility; VERSION, CITATION.cff and this change log identify v2.2.0.

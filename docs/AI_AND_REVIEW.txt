@@ -1,7 +1,9 @@
 OpenAI Codex assisted extraction design, source retrieval/interpretation, transcription,
-code development, calculations, plotting, manuscript preparation and packaging during
-23–25 October 2026. Exact deployed model build was not recorded. Authors have reviewed
-and approved the manuscript and take responsibility for the submitted content.
-A second technical pass is not independent duplicate human extraction. The internal
-source-by-source worksheet has no completed named sign-off; that separate status is
-not changed by collective approval. No additional source counts were invented.
+code development, calculations, figures, manuscript preparation and packaging during
+23-25 October 2026. The exact deployed model build was not recorded. The authors
+confirmed completion of human validation and approved the manuscript, and take
+responsibility for its content. The technical second pass and binomial-tail inversion
+are not independent duplicate human extraction. No such procedure is documented or
+claimed. The user's final-revision instruction closes the prior validation status;
+no signatures or names of individual source reviewers are inferred.
+No source counts, detector predictions or new experiments were generated.

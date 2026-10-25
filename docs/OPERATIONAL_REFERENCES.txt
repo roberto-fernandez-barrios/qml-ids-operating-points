@@ -1,0 +1,28 @@
+Targeted operational motivation (not an expanded review or corpus update)
+
+Axelsson, S. (2000), The base-rate fallacy and the difficulty of intrusion detection.
+ACM Transactions on Information and System Security 3, 186-205.
+DOI: 10.1145/357830.357849. Sections 4 and 5.3, printed pp. 189-193:
+Bayes' relation links the attack fraction among flags to attack prevalence, TPR and
+FPR. The manuscript uses this dependence qualitatively; it does not transport the
+paper's illustrative deployment assumptions to any QML-IDS result.
+Primary text consulted through web retrieval:
+https://profsandhu.com/cs6393_s21/Axelsson-2000.pdf
+A direct local HTTP download returned 406; the web-rendered primary text was
+accessible. This is a technical retrieval distinction, not an access-right claim.
+
+Sommer, R.; Paxson, V. (2010), Outside the Closed World: On Using Machine Learning
+for Network Intrusion Detection. IEEE Symposium on Security and Privacy, 305-316.
+DOI: 10.1109/SP.2010.25. Sections III.B (cost of errors), III.E and IV.D (evaluation),
+printed pp. 307, 309-313: operational semantics, data suitability and separation of
+training from final evaluation. The manuscript cites these evaluation concerns,
+not historical claims about the current frequency of real-world ML deployment.
+Primary conference paper consulted:
+https://gangw.cs.illinois.edu/class/cs562/papers/Closed_World-IDS-sp10.pdf
+
+Metadata and author-list completion
+The publisher-deposited Crossref metadata and Springer author list for DOI
+10.1186/s43067-026-00390-6 confirm all five authors: Kyiewu Bernard, Amponsah
+Clinton, Odoi Henry, Bessasimons Linda and Richard Komba. These replace the old
+'et al.' placeholder. Other source references retain their verified author lists.
+Sources and retrieval records are retained privately, not redistributed here.
