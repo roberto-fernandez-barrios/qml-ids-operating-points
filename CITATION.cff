@@ -3,6 +3,10 @@ message: "Cite this reproducibility artifact together with its companion manuscr
 type: software
 title: "QML-IDS Operating Points: reproducibility artifact for the Kaissar corpus"
 version: "2.1.0"
+doi: "10.5281/zenodo.23641767"
+repository-code: "https://github.com/roberto-fernandez-barrios/qml-ids-operating-points"
+url: "https://doi.org/10.5281/zenodo.23641767"
+date-released: "2026-10-25"
 license:
   - MIT
   - CC-BY-4.0
@@ -29,7 +33,7 @@ abstract: >-
   included; five supply 24 main descriptive points. No new model training or QPU
   executions. Conditional binomial calculations are distinguished from verified
   sampling or calibration guarantees. Code is MIT; derived data/documentation are
-  CC BY 4.0 under the scopes in LICENSING.txt. Public identifiers are not yet assigned.
+  CC BY 4.0 under the scopes in LICENSING.txt. The companion manuscript is not yet submitted or published.
 keywords:
   - quantum machine learning
   - intrusion detection

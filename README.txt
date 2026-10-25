@@ -55,10 +55,12 @@ source attribution; they do not reproduce source artwork.
 The data schema retains Spanish field names. English interpretation is supplied in
 the notes, registry, browser and accompanying article/supplement.
 Software is licensed under MIT; derived data and documentation under CC BY 4.0.
-See LICENSE, LICENSE-DATA and LICENSING.txt for scope. The intended workflow is a
-GitHub development repository and a fixed-version Zenodo archive, as in the thesis
-artifacts. CITATION.cff and .zenodo.json contain the author/version metadata. A draft
-or reserved DOI is not a published deposit; remote status is tracked separately.
+See LICENSE, LICENSE-DATA and LICENSING.txt for scope.
+Repository: https://github.com/roberto-fernandez-barrios/qml-ids-operating-points
+Release tag: v2.1.0
+Version archive: https://doi.org/10.5281/zenodo.23641767
+CITATION.cff and .zenodo.json contain the author/version metadata. The archive DOI
+identifies this software/data artifact, not a published or accepted journal article.
 
 REVIEW STATUS
 Technical checks are assistant-assisted arithmetic and consistency checks. The second

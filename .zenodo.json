@@ -35,5 +35,13 @@
   ],
   "access_right": "open",
   "license": "other-open",
-  "notes": "Prepared for the thesis GitHub plus fixed-version Zenodo workflow. Compound open licensing: MIT software and CC BY 4.0 derived data/documentation, with explicit file scopes. No specific external funding; no conflicts declared. AI assistance is documented in docs/AI_AND_REVIEW.txt. The companion article has no publication DOI."
+  "notes": "Version 2.1.0 follows the thesis GitHub plus fixed-version Zenodo workflow. Compound open licensing: MIT software and CC BY 4.0 derived data/documentation, with explicit file scopes. No specific external funding; no conflicts declared. AI assistance is documented in docs/AI_AND_REVIEW.txt. The companion article has no publication DOI.",
+  "publication_date": "2026-10-25",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/roberto-fernandez-barrios/qml-ids-operating-points/tree/v2.1.0",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
 }

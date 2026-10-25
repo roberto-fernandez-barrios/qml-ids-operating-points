@@ -1,8 +1,9 @@
 Version 2.1.0, prepared 25 October 2026. Authors and declarations confirmed.
 Code: MIT. Derived data/documentation: CC BY 4.0. Exact scopes: LICENSING.txt.
-GitHub development repository plus a fixed-version Zenodo deposit follow the thesis
-artifact workflow. Remote draft/publication status is recorded separately in the
-editorial delivery. Neither a public repository URL nor a DOI is fabricated here.
+GitHub: https://github.com/roberto-fernandez-barrios/qml-ids-operating-points
+Fixed-version archive: https://doi.org/10.5281/zenodo.23641767
+Release tag: v2.1.0. The archive identifies software and derived data, not a published
+journal article. The companion manuscript is prepared for manual submission.
 No primary texts/images/notebooks, MDPI template, editorial PDFs or credentials are
 included. Source locations and hashes identify privately consulted files, not inputs
 required for the portable reconstruction. The original protocol is historical.

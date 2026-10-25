@@ -9,5 +9,8 @@
   },
   "numerical_reference": "v1 / same closed corpus",
   "scope": "No new source corpus, detector evaluation or training",
-  "changes_since_v2": "Author metadata, confirmed declarations and repository licensing. Numerical schema and results unchanged."
+  "changes_since_v2": "Author metadata, confirmed declarations and repository licensing. Numerical schema and results unchanged.",
+  "version_doi": "10.5281/zenodo.23641767",
+  "repository": "https://github.com/roberto-fernandez-barrios/qml-ids-operating-points",
+  "release_tag": "v2.1.0"
 }
