@@ -1,9 +1,18 @@
-OpenAI Codex assisted extraction design, source retrieval/interpretation, transcription,
-code development, calculations, figures, manuscript preparation and packaging during
-23-25 October 2026. The exact deployed model build was not recorded. The authors
-confirmed completion of human validation and approved the manuscript, and take
-responsibility for its content. The technical second pass and binomial-tail inversion
-are not independent duplicate human extraction. No such procedure is documented or
-claimed. The user's final-revision instruction closes the prior validation status;
-no signatures or names of individual source reviewers are inferred.
-No source counts, detector predictions or new experiments were generated.
+AI ASSISTANCE AND REVIEW
+
+OpenAI Codex assisted with extraction design, source retrieval and interpretation,
+transcription, code development, statistical calculations, scientific plotting,
+manuscript preparation and repository documentation during 23–25 October 2026.
+The exact deployed model build was not recorded. Assistance was substantive and
+not limited to language editing.
+
+The authors reviewed and approved the manuscript and confirmed completion of
+human validation. Independent duplicate extraction by two human researchers is
+not documented and is not claimed. Technical re-reading and the frozen second
+transcription are distinguished from independent human extraction.
+
+The 180 numerical checks compare source-linked derived values and recompute
+binomial limits through an independent numerical route. Repository CI adds
+integrity and documentation checks. These checks establish neither independent
+observations nor detector freezing, shared instances or transport to deployment.
+The authors remain responsible for the scientific content.

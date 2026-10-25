@@ -1,0 +1,25 @@
+name: Evidence or documentation correction
+description: Link a proposed correction to its source object and interpretation.
+title: "[Evidence] "
+body:
+  - type: input
+    id: record
+    attributes:
+      label: Study/point ID and artifact version
+      placeholder: "K17-P009, v2.2.0"
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Exact source object
+      description: DOI or lawful public URL, source version and figure/table/page. Do not upload copyrighted full texts.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Recorded value or statement, proposed correction and consequence
+      description: Distinguish a count change from an interpretation or wording change. Keep observed evidence separate from assumptions.
+    validations:
+      required: true

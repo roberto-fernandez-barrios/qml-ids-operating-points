@@ -1,0 +1,36 @@
+{
+  "artifact_version": "2.2.0",
+  "commit": "6e8a8509e344876e6d1bdcd10633365566d9ad93",
+  "doi": "10.5281/zenodo.23642804",
+  "zip_sha256": "78b2f4f3acc81e3735cc9b02bb47207c7e22e00f153c92f3c105a5adc5142656",
+  "core_sha256": {
+    ".zenodo.json": "1b723dc88ae4eeba1edfcca52c0acf8df13a42b89e031b22bfe6f3144e5fce96",
+    "CITATION.cff": "e2164f8ef6a2744615dfa194addb53973f7c916c517a9d8fdaa542cd247a2e15",
+    "data/BASE_ESTUDIOS.json": "2988ce36d3dd168357c6f07225f59193738fafe24c049e43aec625824953f470",
+    "data/bibliography_overrides.json": "2684f098f02b82c3aa03b13ca75bf438b9cd2a082e5a8c9990f7e55a46a874cb",
+    "data/MARCO.json": "041965e42bf9c1fa718242369df7a68b7be4284aa0f80636e639bf95d9b3e39d",
+    "data/PUNTOS_OPERACION.json": "40971bc06b17619b9adee5640f19931b91d8d64c2b65758b7f1772f834c1938a",
+    "data/REFERENCE_RESULTS_V1.json": "a9ca2afb7933c0eb2a6577e644eecdf70d5274f333fbe305517946d38ac83e06",
+    "data/SECOND_TECHNICAL_TRANSCRIPTION.json": "2f2f8a70e1fbd389b744206388ebc273c0c7cb236cec980e681790b1f15612f0",
+    "data/source_locations_en.json": "24e84f37165f946272f867ed8d83c123a3c790f1482bc4e5618f9caaa6c5e34a",
+    "data/SOURCE_REGISTRY.json": "45c38cb8b089ac14a4dbb4b888fade671d1aa7d146d4cd58e1e695e3fdda861e",
+    "data/study_notes_en.json": "5f461e712585019313cac33e8469a5fa004e8853f57265fe34dfe6055674f62d",
+    "docs/FROZEN_EXTRACTION_PROTOCOL.txt": "242fb61607eb258739daa88c20c7b271bddfc8a57e95b7b33bd0d0b3b6dc19c0",
+    "requirements-tested.txt": "883470910269a55c65d173e1f4800f72fb50ebac62fa8116d317264c7f9610eb",
+    "scripts/make_browser.py": "b81844b73123f257e4dc8e4286d9a0ab3c904bb34e7523c45b8a04a4466692f6",
+    "scripts/prepare_analysis.py": "c06ced1c068f645e6b27dddab883167a30821200cf137410743b9f9a137c289f",
+    "scripts/reproduce.py": "7d4caf5cf0d4b4f32ed8b956dda0555a4457fd97a83f116d60372d4152ff54c0",
+    "scripts/verify_analysis.py": "8c6c8ae71c30d979c32ad64fed0a500ed8ac87a31a02291f882effb244794ead",
+    "scripts/verify_package.py": "3bff98d8389bea9acf96c376860e0108673532916274e7eff2315ad137eefff7",
+    "VERSION": "72fdf54ed9bbd597f2865a898ff81bf317dee6d121c9d3e113256e1b13f48ea3"
+  },
+  "preview_sha256": {
+    "docs/assets/figure1_operating_points.pdf": "e5fd33c558a88a39de32051e55e49e9ed8bc407e1573e0398f24aeca93fc770a",
+    "docs/assets/figure1_operating_points.png": "29d29dc664c310bdb95d21bad1b18cad4f78aea6bfdd67731bdb0ef5834ba62c",
+    "docs/assets/figure1_operating_points.svg": "3e3c4007825c5ded76413329aff463377643088bd9b7c7ab5c39f70fa541d32d",
+    "docs/assets/figure2_k17_tradeoff.pdf": "67d6e18f36a74c806cf4d08b17eebf20989010f151ec77dde1dc5993b0c57a48",
+    "docs/assets/figure2_k17_tradeoff.png": "d15688b08ffd7d2f3d9c5da1a4e043f24c8050460c876647d957b6c0de98bf60",
+    "docs/assets/figure2_k17_tradeoff.svg": "8367ab0102e3a2805096150078c6541cc85d3e34c41d285e8c8b98605275a777"
+  },
+  "scope": "Frozen research inputs/code/identifiers and already generated previews; documentation refresh does not change them."
+}

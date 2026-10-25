@@ -1,0 +1,25 @@
+name: Reproduction problem
+description: Report a command, environment or integrity failure.
+title: "[Reproduction] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Artifact version or commit
+      placeholder: "v2.2.0, or the main commit SHA"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and command
+      description: OS, Python/dependency versions, working directory and exact command.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Observed output and expected outcome
+      description: Include the relevant traceback or JSON report. Remove credentials and private paths.
+    validations:
+      required: true

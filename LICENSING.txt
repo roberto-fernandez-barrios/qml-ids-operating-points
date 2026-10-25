@@ -1,19 +1,20 @@
-LICENSING SCOPE — QML-IDS Operating Points, v2.1.0
+LICENSING SCOPE — QML-IDS Operating Points
 
-Software (scripts/, requirements-tested.txt): MIT, full text in LICENSE.
-Derived aggregate records (data/), documentation (docs/, README.txt and metadata),
-and regenerated tables/figures: CC BY 4.0, terms and legal-code link in LICENSE-DATA.
-These are distinct scopes, not a requirement to dual-license every file.
-Facts and bibliographic metadata retain attribution; no exclusive rights are claimed
-in the published observations transcribed from the sources. Third-party rights are
-not relicensed. No primary reports, full texts, source artwork, source notebooks,
-MDPI template, editorial PDFs, internal review sheets or credentials are included.
+Software in scripts/ and tools/, dependency specifications and CI configuration:
+MIT; full terms in LICENSE.
 
-This follows the thesis practice of permissive code licensing (MIT in VBC and the
-certification-cost artifact) and a separate CC BY 4.0 scope for derived evidence
-and documentation (the hybrid-integrity artifact). It does not copy a manuscript
-licence or another article's grant information.
+Derived aggregate records in data/, documentation, metadata, reconstructed tables
+and figures (including docs/assets/): CC BY 4.0; terms in LICENSE-DATA.
+These are separate scopes, not a requirement to dual-license every file.
 
-The repository and a fixed-version Zenodo archive are the intended dissemination
-route. A draft/reserved DOI is not a published record. Actual public identifiers
-are added only after they exist, with the precise status indicated.
+Facts and bibliographic metadata retain source attribution. No exclusive rights
+are claimed in observations transcribed from the original studies. Original
+reports retain their own rights; this repository does not relicense them.
+Publisher PDFs, full-text extractions, source artwork, source notebooks,
+manuscripts and third-party journal templates are not distributed here.
+
+Cite the artifact version and the relevant original studies when reusing the
+reconstructed evidence. The fixed research artifact is version 2.2.0; current
+reader documentation is described in docs/VERSION_POLICY.md. Licensing terms
+are unchanged from that artifact. The earlier heading in the frozen LICENSING.txt
+is a historical version label, not a different licensing grant.

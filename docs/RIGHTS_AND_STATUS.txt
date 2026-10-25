@@ -1,13 +1,19 @@
-Version 2.2.0, prepared 25 October 2026. Authors and declarations confirmed.
-Code: MIT. Derived data/documentation: CC BY 4.0. Exact scopes: LICENSING.txt.
-GitHub: https://github.com/roberto-fernandez-barrios/qml-ids-operating-points
-Version archive: https://doi.org/10.5281/zenodo.23642804
+STATUS AND RIGHTS
+
+The companion manuscript is prepared for manual journal submission. No journal
+submission, acceptance or publication is claimed here. Author approval and human
+validation are complete as confirmed by the authors; independent duplicate
+human extraction is not claimed.
+
+Research artifact: 2.2.0
+DOI: https://doi.org/10.5281/zenodo.23642804
 Release: https://github.com/roberto-fernandez-barrios/qml-ids-operating-points/releases/tag/v2.2.0
-Historical v2.1.0 (unchanged): https://doi.org/10.5281/zenodo.23641767
-Release tag: v2.2.0. The archive identifies software and derived data, not a published
-journal article. The companion manuscript is prepared for manual submission.
-No primary texts/images/notebooks, MDPI template, editorial PDFs or credentials are
-included. Source locations and hashes identify privately consulted files, not inputs
-required for the portable reconstruction. The original protocol is historical.
-Human validation and author approval are confirmed complete. No independent
-duplicate extraction procedure or individual source-review signatures are claimed.
+The DOI identifies software and derived data, not a published journal article.
+The main branch carries an additional documentation layer and continuous checks;
+this does not alter the archived artifact. See VERSION_POLICY.md.
+
+Code: MIT. Derived data/documentation/figures: CC BY 4.0. Exact scopes: ../LICENSING.txt.
+Source filenames and hashes identify consulted versions, not files needed for
+portable reconstruction. Original source copies are intentionally not distributed.
+FROZEN_EXTRACTION_PROTOCOL.txt is the unchanged historical protocol. Its English
+reader guide is EXTRACTION_PROTOCOL_EN.md, not a retrospective preregistration.

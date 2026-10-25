@@ -1,0 +1,101 @@
+[
+  {
+    "article_object": "Main figure: all 24 descriptive points",
+    "outputs": [
+      "figures/figure1_operating_points.pdf",
+      "figures/figure1_operating_points.svg",
+      "results/FIGURE_MANIFEST_V2_2.json"
+    ],
+    "source_ids": [
+      "K03",
+      "K07",
+      "K10",
+      "K11",
+      "K17"
+    ],
+    "criterion": "principal; intervals only where main_interval_display is true"
+  },
+  {
+    "article_object": "K17 comparison figure",
+    "outputs": [
+      "figures/figure2_k17_tradeoff.pdf",
+      "figures/figure2_k17_tradeoff.svg"
+    ],
+    "source_ids": [
+      "K17"
+    ],
+    "criterion": "Figure 7 Test only; no Train or cross-validation substitution"
+  },
+  {
+    "article_object": "Selection and access denominators",
+    "outputs": [
+      "results/SUMMARY_V2.json",
+      "tables/selection.tex"
+    ],
+    "source_ids": [],
+    "criterion": "Article-level inclusion and documentary families; 25/21/20/15 are different denominators"
+  },
+  {
+    "article_object": "Source-object interpretation table",
+    "outputs": [
+      "tables/source_dossiers.tex"
+    ],
+    "source_ids": [
+      "K03",
+      "K07",
+      "K10",
+      "K11",
+      "K17"
+    ],
+    "criterion": "Source registry and study notes support the manually typeset compact table"
+  },
+  {
+    "article_object": "Six-point conditional analysis",
+    "outputs": [
+      "tables/conditional_points.tex",
+      "tables/intervals.tex"
+    ],
+    "source_ids": [
+      "K10",
+      "K17"
+    ],
+    "criterion": "main_interval_display; unverified independence"
+  },
+  {
+    "article_object": "Hypothetical provenance illustrations",
+    "outputs": [
+      "tables/k03_hypothetical.tex",
+      "tables/k11_hypothetical.tex",
+      "tables/hypothetical_intervals.tex"
+    ],
+    "source_ids": [
+      "K03",
+      "K11"
+    ],
+    "criterion": "Test-adjusted or training-described source evidence"
+  },
+  {
+    "article_object": "Supplementary mapping/code sensitivities",
+    "outputs": [
+      "tables/supplementary_counts.tex",
+      "tables/legacy_conditional_points.tex"
+    ],
+    "source_ids": [
+      "K03",
+      "K10",
+      "K15",
+      "K17"
+    ],
+    "criterion": "Read labels and reconstruction assumptions; legacy table retains original release caption"
+  },
+  {
+    "article_object": "Verification and browseable extraction",
+    "outputs": [
+      "results/TECHNICAL_VERIFICATION_V2.json",
+      "results/ANALYSIS_V2.json",
+      "results/extraction_browser.html"
+    ],
+    "source_ids": [],
+    "criterion": "180 technical checks; 466 derived records, not independent studies"
+  }
+]
